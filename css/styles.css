@@ -1,0 +1,37 @@
+.jumbotron {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  vertical-align: middle;
+  padding: 0;
+
+}
+
+.landingPageHeading {
+  color: #008000;
+  padding-top: 15%;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 144px;
+}
+
+.landingPageParagraph {
+  color: black;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 48px;
+}
+
+.navbar {
+  background-color: #008000;
+  text-align: center;
+  height: 100vh;
+  margin-top: : 0;
+}
+
+.nav-link {
+  color: white;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.row {
+  padding: 0;
+}

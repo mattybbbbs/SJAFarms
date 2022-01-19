@@ -14,6 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Libre+Franklin:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -23,90 +24,109 @@
 </head>
 
 <body>
+  <!-- Landing page -->
 
-<!-- <div class="container">
-  <div class="row">
-    <div class="col-sm-2 hidden-sm">
-      <nav class="navbar hidden-sm">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <img src="images/SJAlogo.png" alt="Logo" height = 150px>
-          </a>
-        </li>
+  <div class=" jumbotron-fluid landingPage">
+    <!-- <nav class="navbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <img src="images/SJAlogo.png" alt="Logo" width="100vw">
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        </ul>
-      </nav>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Contact</a>
+    </li>
+  </ul>
+  </nav> -->
+    <div class="container">
+      <div class="col-md-6">
+        <h1 class="landingPageHeading my-5">SJA</h1>
+        <p class="landingPageParagraph my-5">Producers of high quality<br>Lucerne hay in the<br>Lockyer Valley</p>
       </div>
+    </div>
+  </div>
 
-      <div class="col-sm-10">
-        <div class="container jumbotron">
-          <h1 class="display-4 landingPageHeading">SJA</h1>
-          <p class="lead landingPageParagraph">Producers of high quality<br>Lucerne hay in the<br>Lockyer Valley</p>
+  <!-- About page -->
+
+  <div class="aboutPage">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 my-5">
+          <img class="img-fluid" src="images/lucerneUpClose.jpg" alt="Lucerne leaves">
+        </div>
+        <div class="col-lg-6 my-5">
+          <h1 class="aboutPageHeading">Our Story...</h1>
+          <p class="aboutPageCopy">Our founder, Joe Samuelsen, moved to the Lockyer valley in 19XX and staked his claim at Flagstone Creek with his wife Ruby. Nestled in the foothills of the Great Dividing Range. The region boasts mineral-rich
+            alluvial soil, high annual rainfall and prime agricultural land responsible for $342 million worth of produce sold each year. The Lockyer valley is known as Australia’s salad bowl and is one of the top 10 most fertile farming areas of the
+            world. </p>
+          <p class="aboutPageCopy">Joe spent decades honing his craft and producing prime first grade Lucerne with a focus on quality, weight and excellent leaf retention. Joe’s produce set a new standard in Lucerne and was often sold before it was
+            even baled. Growing Lucerne is an art and Joe passed his techniques, knowledge and knowhow to his Grandson Shaun who has now taken over the family business.</p>
+          <p class="aboutPageCopy">Renamed SJA Farms in 2021, Shaun continues to produce Lucerne to a quality and standard that would impress Joe. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact page -->
+  <div class="ContactPage">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 my-5">
+          <h1 class="contactPageHeading">Contact Shaun</h1>
+          <p class="contactPageCopy">Flagstone Creek Road<br>Flagstone Creek QLD</p>
+          <p class="contactPageCopy">sjafarms@outlook.com</p>
+          <p class="contactPageCopy">Ph: 0488 975 190</p>
+        </div>
+
+        <div class="col-lg-6">
+
+            <form action="https://formspree.io/f/mzbozoyg" method="POST">
+              <label>
+                Your email:
+                <input type="email" name="_replyto">
+              </label>
+              <label>
+                Your message:
+                <textarea name="message"></textarea>
+              </label>
+              <!-- your other form fields go here -->
+              <button type="submit">Send</button>
+            </form>
+
         </div>
       </div>
 
-    </div>
-  </div> -->
-
-
-
-
-
-
-<div class="jumbotron jumbotron-fluid">
-  <div class="row">
-
-    <nav class="navbar hidden-sm">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <img src="images/SJAlogo.png" alt="Logo" height = 150px>
-        </a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
-    </nav>
-
-    <div class="container">
-      <h1 class="display-4 landingPageHeading">SJA</h1>
-      <p class="lead landingPageParagraph">Producers of high quality<br>Lucerne hay in the<br>Lockyer Valley</p>
-    </div>
-  </div>
+      <div class="container-fluid mt-5">
+        <img class="img-fluid" src="images/snazzymap.jpg" alt="Map">
+      </div>
+</div>
   </div>
 
+  <div class="footer">
+    <div class="flex-container">
+      <div class="col-lg-2">
+        <h3>Follow us</h3>
+        <img img-fluid src="images/facebook.png" alt="Facebook" height="50vh">
+        <img img-fluid src="images/instagram.png" alt="instagram" height="50vh">
+      </div>
+      <div class="col-lg-2">
+        <img img-fluid src="images/waterfall.jpg" alt="waterfall" height="100vh">
+      </div>
+      <div class="col-lg-2">
+        <img img-fluid src="images/sunset.jpg" alt="sunset" height="100vh">
 
-
-
-
-
-
-
-
-
-
-
-  <div class="media">
-    <img src="..." class="align-self-center mr-3" alt="...">
-    <div class="media-body">
-      <h2 class="mt-0">Our Story...</h2>
-      <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in
-        faucibus.</p>
-      <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      </div>
+      <div class="col-lg-2">
+        <img img-fluid src="images/rainbow.jpg" alt="rainbow" height="100vh">
+      </div>
+      <div class="col-lg-2">
+        <img img-fluid src="images/aerial.jpg" alt="aerial photo" height="100vh">
+      </div>
     </div>
   </div>
 

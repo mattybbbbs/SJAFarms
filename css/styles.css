@@ -1,37 +1,72 @@
-.jumbotron {
-  background-image: url("../images/background.jpg");
+.landingPage {
+  background-image: url("../images/background5.jpg");
   background-size: cover;
   height: 100vh;
-  vertical-align: middle;
-  padding: 0;
-
+  display: flex;
+  align-items: center;
 }
 
 .landingPageHeading {
   color: #008000;
-  padding-top: 15%;
   font-family: 'Libre Baskerville', serif;
-  font-size: 144px;
+  font-size: 18vh;
 }
 
 .landingPageParagraph {
   color: black;
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 48px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4vh;
 }
 
-.navbar {
+/* .navbar {
   background-color: #008000;
   text-align: center;
   height: 100vh;
-  margin-top: : 0;
+  margin: 0;
 }
 
 .nav-link {
   color: white;
   font-family: 'Libre Franklin', sans-serif;
+} */
+
+.aboutPageHeading {
+  color: #008000;
+  font-family: 'Libre Baskerville', sans-serif;
+  text-align: center;
 }
 
-.row {
-  padding: 0;
+.aboutPageCopy {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.aboutPage {
+  display: flex;
+  align-items: center;
+}
+
+.ContactPage {
+  background-color: #333333;
+  display: flex;
+  align-items: center;
+}
+
+.contactPageHeading {
+  color: #008000;
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+.contactPageCopy {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
